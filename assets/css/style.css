@@ -10,13 +10,13 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #0c84da; 
+    background: #DDB98F; 
     border-radius: 15px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #3e9bdd; 
+    background: #DDB98F; 
 }
 
 body {
@@ -70,6 +70,9 @@ section{
 .danielw-img {
 	height: 400px;
 	margin-top: 50px;
+	-moz-box-shadow:    3px 3px 5px 6px rgb(224, 224, 224);
+  	-webkit-box-shadow: 3px 3px 5px 6px rgb(224, 224, 224);
+  	box-shadow:         3px 3px 5px 6px rgb(224, 224, 224);
 }
 
 .old-price {
@@ -87,9 +90,9 @@ h1,h2,h3{
 }
 
 .img-info {
-	-moz-box-shadow:    3px 3px 5px 6px #ccc;
-  	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  	box-shadow:         3px 3px 5px 6px #ccc;
+	-moz-box-shadow:    3px 3px 5px 6px rgb(224, 224, 224);
+  	-webkit-box-shadow: 3px 3px 5px 6px rgb(224, 224, 224);
+  	box-shadow:         3px 3px 5px 6px rgb(224, 224, 224);
 }
 
 .txt-info {
@@ -112,7 +115,7 @@ h1,h2,h3{
 }
 
 .how-we-work {
-	background-color: #f4f4f4;
+	background-color: #F5F5F5;
 }
 
 .work-timeline-block {
@@ -208,6 +211,8 @@ h1,h2,h3{
 	background-size: cover;
 	border-top: 1px solid #DDB98F;
 	border-bottom: 1px solid #DDB98F;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .section-how-work-lising{
@@ -239,16 +244,14 @@ h1,h2,h3{
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");
 }
 
+.panel-title, .panel-title:hover {
+	font-size: 20px !important;
+	font-weight: 400;
+}
 
-
-
-
-
-
-
-
-
-
+.panel-title, a:hover, a:active, a:focus {
+	text-decoration: none !important;
+}
 
 
 .line-bottom {
@@ -1035,12 +1038,15 @@ footer {
 		color: black;
 		font-size: 20px;
 		font-weight: 400;
+		text-decoration: none;
 	}
 
 	.phone-whatsapp:hover {
+		color: black;
 		font-size: 20px;
 		font-weight: 400;
 		cursor: pointer;
+		text-decoration: none;
 	}
 
 	.font-why {
@@ -1116,8 +1122,7 @@ footer {
 	}
 
 	.call-back-form-header {
-		/* padding-top: 16vh; */
-		/* padding-left: 80px; */
+		/* padding-top: 40px; */
 	}
 
 	.features-icon {
@@ -1130,9 +1135,10 @@ footer {
 	}
 	
 	.phone-link:hover {
-		color: #0c84da !important;
+		color: #DDB98F !important;
 		text-decoration: none;
 	}
+	
 
 	.section-request-call-now {
 		background: url('../img/settings.jpg') no-repeat center center fixed; 

@@ -19,6 +19,79 @@
       $("#success-modal").modal('hide');
     });
 
+    $("#instagram-icon").on("click", function(){
+      window.open('https://www.instagram.com/watchkaty/', '_blank');
+    });
+    
+
+    $('#section0-1').on("click", function () {
+        if($('#section0').hasClass('fa-angle-down')) {
+          $('#section0').removeClass('fa-angle-down');
+          $('#section0').addClass('fa-angle-up');
+
+          $('#section1').removeClass('fa-angle-up');
+          $('#section1').addClass('fa-angle-down');
+          $('#section2').removeClass('fa-angle-up');
+          $('#section2').addClass('fa-angle-down');
+          $('#section3').removeClass('fa-angle-up');
+          $('#section3').addClass('fa-angle-down');
+        } else {
+          $('#section0').removeClass('fa-angle-up');
+          $('#section0').addClass('fa-angle-down');
+        }
+    });
+  
+    $('#section1-1').on("click", function () {
+      if($('#section1').hasClass('fa-angle-down')) {
+        $('#section1').removeClass('fa-angle-down');
+        $('#section1').addClass('fa-angle-up');
+
+        $('#section0').removeClass('fa-angle-up');
+          $('#section0').addClass('fa-angle-down');
+          $('#section2').removeClass('fa-angle-up');
+          $('#section2').addClass('fa-angle-down');
+          $('#section3').removeClass('fa-angle-up');
+          $('#section3').addClass('fa-angle-down');
+      } else {
+        $('#section1').removeClass('fa-angle-up');
+        $('#section1').addClass('fa-angle-down');
+      }
+    });
+
+    $('#section2-1').on("click", function () {
+        if($('#section2').hasClass('fa-angle-down')) {
+          $('#section2').removeClass('fa-angle-down');
+          $('#section2').addClass('fa-angle-up');
+
+          $('#section1').removeClass('fa-angle-up');
+          $('#section1').addClass('fa-angle-down');
+          $('#section0').removeClass('fa-angle-up');
+          $('#section0').addClass('fa-angle-down');
+          $('#section3').removeClass('fa-angle-up');
+          $('#section3').addClass('fa-angle-down');
+        } else {
+          $('#section2').removeClass('fa-angle-up');
+          $('#section2').addClass('fa-angle-down');
+        }
+    });
+
+    $('#section3-1').on("click", function () {
+        if($('#section3').hasClass('fa-angle-down')) {
+          $('#section3').removeClass('fa-angle-down');
+          $('#section3').addClass('fa-angle-up');
+
+          $('#section1').removeClass('fa-angle-up');
+          $('#section1').addClass('fa-angle-down');
+          $('#section2').removeClass('fa-angle-up');
+          $('#section2').addClass('fa-angle-down');
+          $('#section0').removeClass('fa-angle-up');
+          $('#section0').addClass('fa-angle-down');
+        } else {
+          $('#section3').removeClass('fa-angle-up');
+          $('#section3').addClass('fa-angle-down');
+        }
+    });
+
     window.setInterval(function() {
       function getDateNow() {
         var n =  new Date();
