@@ -72,7 +72,8 @@ section{
 	margin-top: 50px;
 	-moz-box-shadow:    3px 3px 5px 6px rgb(224, 224, 224);
   	-webkit-box-shadow: 3px 3px 5px 6px rgb(224, 224, 224);
-  	box-shadow:         3px 3px 5px 6px rgb(224, 224, 224);
+	box-shadow:         3px 3px 5px 6px rgb(224, 224, 224);
+	border-radius: 5px;
 }
 
 .old-price {
