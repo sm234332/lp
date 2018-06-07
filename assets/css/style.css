@@ -373,6 +373,12 @@ footer {
 	padding-top: 60px;
 }
 
+a.phone-a {
+	color: black !important;
+	text-decoration: none !important;
+	cursor: pointer !important;
+}
+
 /* @media(max-width:990px){
 	.navbar-header{
 		float:none;
